@@ -1,0 +1,82 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//  queue = fila
+// queueELEM = NO
+
+struct NO {
+	int cod;
+	struct NO *prox;
+};
+
+struct fila {
+	struct NO * inicio, *fim;
+
+};
+
+struct NO* novoNO(int x)
+{
+    struct NO* node = (struct NO*)malloc(sizeof(struct NO));
+    if (!node)
+    	exit(1);
+    else {
+    node->cod = x;
+    node->prox = NULL;
+    return node;
+    }
+}
+struct fila* inicia_fila () {
+	struct fila* q = (struct fila*)malloc(sizeof(struct fila));
+	if (!q)
+		exit(1);
+	else {
+		q->inicio = NULL;
+		q->fim = NULL;
+}
+	return q;
+}
+int fila_vazia (struct fila* q){
+	if (q==NULL) return 1;
+	if(q->inicio==NULL) return 1;
+	else return 0;
+}
+  void inserir_fila(struct fila* q, int x){
+	  struct NO* node = novoNO(x);
+	  if(!node)
+		  exit(1);
+	  if(q -> fim == NULL)
+		  q->inicio = node;
+	  else
+		  q->fim ->prox = node;
+	  q->fim = node ;
+  }
+
+  int remover_fila (struct fila* q){
+	  if(fila_vazia(q)) return 0;
+
+	  struct NO* node = q->inicio;
+	  q->inicio = q->inicio->prox;
+	  if (q->inicio==NULL)
+		  q->fim = NULL;
+	  free(node);
+	  return 1;
+   }
+  int main()
+  {
+      struct fila* q = inicia_fila();
+     // inserir_fila(q, 10);
+     // inserir_fila(q, 20);
+      //remover_fila(q);
+      //remover_fila(q);
+     // inserir_fila(q, 30);
+     // inserir_fila(q, 40);
+     // inserir_fila(q, 50);
+     // inserir_fila(q, 30);
+      remover_fila(q);
+      printf("Fila Inicio : %d \n", q->inicio->cod);
+      printf("Fila Fim : %d", q->fim->cod);
+      return 0;
+  }
+
+
+

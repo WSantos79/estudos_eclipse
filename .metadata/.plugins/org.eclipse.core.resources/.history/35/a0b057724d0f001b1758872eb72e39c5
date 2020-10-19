@@ -1,0 +1,24 @@
+package Faculdade;
+
+public class Triang extends Geom2D { 
+
+        
+		@Override
+
+    double calcPerimetro() {
+
+        super.perimetro = this.ladoA + this.ladoB + this.ladoC;
+
+        return super.perimetro;
+
+    }
+
+    public static void main(String[] args) {
+
+        Triang trian = new Triang(3, 25, 26);
+
+        System.out.println("Perimetro: " + trian.calcPerimetro());
+
+    }
+
+} 
