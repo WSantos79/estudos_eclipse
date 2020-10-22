@@ -26,7 +26,7 @@ Alt + Shift + R: Para realizar esse comando primeiro selecione o nome de qualque
  método ou classe e depois realize o comando para renomear todas as ocorrências da classe,
   método ou variável que existir no projeto.
 
-
+MOUSE BUGADOO ==== TECLA INSERT
 
 Alt – Shift + M: Extrai uma determinada porção de código selecionado para um novo método
 , ou seja, selecione um conjunto de linhas, 

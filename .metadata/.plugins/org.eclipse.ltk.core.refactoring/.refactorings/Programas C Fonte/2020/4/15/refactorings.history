@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move &apos;U2S3.c&apos; to &apos;Unidade 01&apos;" description="Move &apos;U2S3.c&apos; to &apos;Unidade 01&apos;" destination="Unidade 01" element1="U2S3.c" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1586131154534" updateReferences="true"/>
-</session>
