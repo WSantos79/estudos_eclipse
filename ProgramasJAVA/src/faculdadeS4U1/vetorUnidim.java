@@ -1,10 +1,14 @@
 package faculdadeS4U1;
 
+// Arrays unidimensionais: Vetores
+
 public class vetorUnidim {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+		//	int vet[] = {1, 5, 3, 4};
+		//  int[] vet = {1, 5, 3, 4};
+		// int, double, char ...
 		
 		int vet[] = new int[11];
 		
