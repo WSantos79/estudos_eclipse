@@ -1,15 +1,16 @@
 
-	CTRL + Espaï¿½o: Auto-completa uma palavra, ï¿½ o comando mais utilizado pois atravï¿½s dele vocï¿½ pode conhecer todos os mï¿½todos, classes ou comandos presentes da linguagem configurada em seu Eclipse, alï¿½m de exibir toda documentaï¿½ï¿½o deles (Isso ï¿½ quando existe documentaï¿½ï¿½o em um mï¿½todo ou classe de terceiros).
+	CTRL + Espaço: Auto-completa uma palavra, é o comando mais utilizado pois através dele você pode conhecer todos os métodos, classes ou comandos presentes da linguagem configurada em seu Eclipse, além de exibir toda documentação deles (Isso é quando existe documentação em um método ou classe de terceiros).
 
-	CTRL + Shift + S: Salva todos os arquivos, ï¿½ mais produtivo do que realizar o comando CTRL + S que salva somente um ï¿½nico arquivo por vez.
+	CTRL + Shift + S: Salva todos os arquivos, é mais produtivo do que realizar o comando CTRL + S que salva somente um único arquivo por vez.
 
-	CTRL + Shift + O: Busca e inclui todos os imports que serï¿½o utilizados no seu cï¿½digo. ï¿½ muito ï¿½til, pois evita agente pesquisar import por import de cada framework instalado no projeto.
+	CTRL + Shift + O: Busca e inclui todos os imports que serão utilizados no seu código. É muito útil, pois evita agente pesquisar import por import de cada framework instalado no projeto.
 
-	CTRL + Shift + F: Essa dica ï¿½ para os programadores preguiï¿½osos ou desorganizados que nï¿½o consegue identar o prï¿½prio cï¿½digo corretamente, esse comando formata todo seu cï¿½digo, respeitando todas as tabulaï¿½ï¿½es e espaï¿½os, tornando seu cï¿½digo limpo, organizado e compreensivo.
+	CTRL + Shift + F: Essa dica é para os programadores preguiçosos ou desorganizados que não consegue identar o próprio código corretamente, esse comando formata todo seu código, respeitando todas as tabulações e espaços, tornando seu código limpo, organizado e compreensivo.
 
-	Alt + Shift + R: Para realizar esse comando primeiro selecione o nome de qualquer variï¿½vel, mï¿½todo ou classe e depois realize o comando para renomear todas as ocorrï¿½ncias da classe, mï¿½todo ou variï¿½vel que existir no projeto.
+	Alt + Shift + R: Para realizar esse comando primeiro selecione o nome de qualquer variável, método ou classe e depois realize o comando para renomear todas as ocorrências da classe, método ou variável que existir no projeto.
 
-	Alt ï¿½ Shift + M: Extrai uma determinada porï¿½ï¿½o de cï¿½digo selecionado para um novo mï¿½todo, ou seja, selecione um conjunto de linhas, realize este comando que irï¿½ surgir uma janela para configurar o nome do mï¿½todo e as regras desse mï¿½todo (private, public, protected), ï¿½ muito ï¿½til, pois ele evita que dupliquemos cï¿½digos repetitivos.
+	Alt – Shift + M: Extrai uma determinada porção de código selecionado para um novo método, ou seja, selecione um conjunto de linhas, realize este comando que irá surgir uma janela para configurar o nome do método e as regras desse método (private, public, protected), é muito útil, pois ele evita que dupliquemos códigos repetitivos.
+
 
 
 
