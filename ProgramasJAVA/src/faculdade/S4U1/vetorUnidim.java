@@ -1,4 +1,4 @@
-package faculdadeS4U1;
+package faculdade.S4U1;
 
 // Arrays unidimensionais: Vetores
 

@@ -1,4 +1,4 @@
-package faculdadeS3U2;
+package faculdade.S3U2;
 
 
 
