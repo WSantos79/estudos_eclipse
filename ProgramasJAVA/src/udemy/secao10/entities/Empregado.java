@@ -1,21 +1,20 @@
 package udemy.secao10.entities;
 
-public class empregado {
-	
+public class Empregado {
+
 	private Integer id;
-	private String nome;	
+	private String nome;
 	private Double salario;
 
-	public empregado() {}
-		
-
-	public empregado(Integer id, String nome, Double salario) {
-		super();
-		this.id = id;
-		this.nome = nome;		
-		this.salario = salario;
+	public Empregado() {
 	}
 
+	public Empregado(Integer id, String nome, Double salario) {
+		super();
+		this.id = id;
+		this.nome = nome;
+		this.salario = salario;
+	}
 
 	public Integer getid() {
 		return id;
@@ -33,24 +32,20 @@ public class empregado {
 		this.nome = nome;
 	}
 
-
-
 	public Double getsalario() {
-		return salario; 
+		return salario;
 	}
 
 	public void setsalario(Double salario) {
 		this.salario = salario;
 	}
-	
+
 	public void addSalario(double porcentagem) {
 		salario += salario * porcentagem / 100.0;
 	}
+
 	public String toString() {
 		return id + ", " + nome + ", " + String.format("%.2f", salario);
 	}
-	
-	
-	}
 
-
+}
